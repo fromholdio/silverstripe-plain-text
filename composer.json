@@ -1,0 +1,25 @@
+{
+  "name": "fromholdio/silverstripe-plain-text",
+  "type": "silverstripe-vendormodule",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-plain-text",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-plain-text/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/framework": "~4.13 || ~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\PlainText\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
