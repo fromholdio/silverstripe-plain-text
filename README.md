@@ -8,6 +8,6 @@ This module can be used in conjunction with [fromholdio/silverstripe-text-statis
 
 Alternatively or additionally, this single plain text field can be used for fast full-text searching of the content; and/or for deriving a summary of the content for use in search results, metadata, etc.
 
-Requires Silverstripe 5+ (should work with 4.x but untested).
+Requires Silverstripe 6+ (see branch 1.x for Silverstripe 4 & 5 support.)
 
 Docs and examples of configurations to achieve the above to come.

@@ -3,20 +3,20 @@
 namespace Fromholdio\PlainText\Extensions;
 
 use SilverStripe\Core\Convert;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\ArrayList;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Model\List\ArrayList;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\ORM\DB;
 use SilverStripe\ORM\FieldType\DBDatetime;
-use SilverStripe\ORM\SS_List;
+use SilverStripe\Model\List\SS_List;
 use SilverStripe\Versioned\Versioned;
 use SilverStripe\View\Parsers\ShortcodeParser;
 
 /**
  * @mixin DataObject
  */
-class PlainTextDataExtension extends DataExtension
+class PlainTextDataExtension extends Extension
 {
     private static $is_plain_text_enabled = true;
     private static $plain_text_reset_on_changed_fields = [];
